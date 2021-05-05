@@ -4,21 +4,34 @@ import Col from 'react-bootstrap/Col'
 
 function Skills(){
     return(
-        <div className="bg-dark text-white fullScreen text-center">
-            <h2>Mes compétences</h2>
+        <div id="skills" className="bg-dark text-white text-center">
+            <h2 className="pb-5">Mes compétences</h2>
             <Container>
                 <Row>
-                    <Col xs={12} md={6}>
-                        <div className="roundCard">html 5</div>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard valid">HTML 5</div>
                     </Col>
-                    <Col className="roundCard ">CSS 3</Col>
-                    <Col className="roundCard ">JavaScript</Col>
-                    <Col className="roundCard ">React</Col>
-                    <Col className="roundCard ">PHP</Col>
-                    <Col className="roundCard ">Symfony</Col>
-                    <Col className="roundCard ">MySQL</Col>
-                    <Col className="roundCard">Git</Col>
-
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard valid">CSS 3</div>
+                    </Col>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard valid">JavaScript</div>
+                    </Col>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard valid">React</div>
+                    </Col>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard unValid">PHP</div>
+                    </Col>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard unValid">Symfony</div>
+                    </Col>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard unValid">MySQL</div>
+                    </Col>
+                    <Col xs={6} md={4} lg={3} className="py-5">
+                        <div className="roundCard valid">Git</div>
+                    </Col>
                 </Row>
             </Container>
         </div>
@@ -27,20 +40,3 @@ function Skills(){
 }
 
 export default Skills;
-
-
-{/* <div className="bg-dark text-white fullScreen">
-<h2 className="text-center">Mes compétences</h2>
-<div className="container">
-    <ul className="bg-dark row">
-        <li className="roundCard text-center col-lg={12}">HTML 5</li>
-        <li className="roundCard text-center col-6 offset-6">CSS 3</li>
-        <li className="roundCard text-center col-6 offset-6">JavaScript</li>
-        <li className="roundCard text-center col-6 offset-6">React</li>
-        <li className="roundCard text-center col-6 offset-6">PHP</li>
-        <li className="roundCard text-center col-6 offset-6">Symfony</li>
-        <li className="roundCard text-center col-6 offset-6">MySQL</li>
-        <li className="roundCard text-center col-6 offset-6">Git</li>
-    </ul>
-</div>
-</div> */}

@@ -56,18 +56,29 @@
   padding-top:55vh;
   color:white;
 }
+/*Projects*/
 
 
 /*Skills*/
+
+/*Doing circle for my skills, */
 .roundCard{
-  height: 20vh;
-  width : 10vw;
-  margin:5%;
+  height: 200px;
+  width : 200px;
   background-color: #034078;
   border-radius : 50%;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*Add Border if its done, WIP or Todo */
+.valid{
+  border:0.5rem solid green;
+}
+.unValid{
+  border:0.5rem solid red;
 }
 
-.fullScreen {
-  height: 100vh;
-}
+
