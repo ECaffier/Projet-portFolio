@@ -53,7 +53,7 @@
 }
 
 .placementArrow{
-  padding-top:55vh;
+  padding-top:30vh;
   color:white;
 }
 /*Projects*/
@@ -61,6 +61,10 @@
 .projectImg{
   height: 20vh;
   width: 20vw;
+}
+.projectImgZoom{
+  height: 40vh;
+  width: 40vh;
 }
 .projectImg:hover{
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
@@ -103,5 +107,9 @@
   .roundCard{
     height:200px;
     width: 200px;
+  }
+
+  .placementArrow{
+    padding-top:65vh;
   }
 }

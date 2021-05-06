@@ -2,6 +2,10 @@ import react from 'react';
 import banner from './banner.jpg';
 import Navbar from 'react-bootstrap/Navbar'
 import {bounce} from 'react-animations'
+import styled, {keyframes} from 'styled-components';
+
+
+const Bounce = styled.div`animation: 2s ${keyframes` ${bounce} `} infinite`;
 
 function Header(){
     return (
@@ -30,7 +34,7 @@ function Header(){
                     <p className="text-center">Développeur Web Junior</p>
                 </div>
                 <div className="placementArrow">
-                    <i className="fas fa-chevron-down fa-5x d-flex justify-content-center "></i>
+                   <Bounce> <i className="fas fa-chevron-down fa-3x d-flex justify-content-center "></i> </Bounce>
                 </div>
             </section>
         </header>
