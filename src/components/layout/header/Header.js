@@ -22,6 +22,9 @@ function Header(){
                         <a class="nav-link active" aria-current="page" href="#skills">Compétences</a>
                         </li>
                         <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#projects">Projets</a>
+                        </li>
+                        <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                     </ul>

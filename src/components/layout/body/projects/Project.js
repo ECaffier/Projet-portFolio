@@ -6,16 +6,34 @@ import ProjectClick from './projectClick'
 
 function Project (){
     return(
-        <div id="skills" className="bg-dark text-white text-center">
-            <h2 className="pb-5">Mes compétences</h2>
+        <div id="projects" className="bg-dark text-white text-center fullScreen">
+            <h2 className="pb-5">Mes Projets</h2>
             <Container>
                 <Row>
-                    <Col xs={4} lg={3} className="py-5">
-                        <div>
-                            <img onClick={ProjectClick} className="projectImg" src ={MemoryGame} />
-                        </div>
-                    </Col>
-    
+                    <Col xs={4} lg={6} className="py-5">
+                    <div id="wrapper">
+                      <a href="https://ecaffier.github.io/jeuMemory/" target='_blank'> <img src={MemoryGame} className="projectImg hover" /></a>
+                        <p className="textHover">Un jeu du memory, réalisé en formation à l'AFPA.</p>
+                    </div>
+                    </Col> 
+                    <Col xs={4} lg={6} className="py-5">
+                    <div id="wrapper">
+                        <img src={MemoryGame} className="projectImg hover" /> 
+                        <p className="textHover">tBLABLABLALBLBLBLBLBLBLBLBLBBLBLBLBLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL</p>
+                    </div>
+                    </Col>   
+                    <Col xs={4} lg={6} className="py-5">
+                    <div id="wrapper">
+                        <img src={MemoryGame} className="projectImg hover" />
+                        <p className="textHover">tBLABLABLALBLBLBLBLBLBLBLBLBBLBLBLBLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL</p>
+                    </div>
+                    </Col>   
+                    <Col xs={4} lg={6} className="py-5">
+                    <div id="wrapper">
+                        <img src={MemoryGame} className="projectImg hover" />
+                        <p className="textHover">tBLABLABLALBLBLBLBLBLBLBLBLBBLBLBLBLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL</p>
+                    </div>
+                    </Col>     
                 </Row>
             </Container>
         </div>

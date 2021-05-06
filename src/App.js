@@ -4,6 +4,7 @@ import Header from './components/layout/header/Header'
 import Project from './components/layout/body/projects/Project'
 import Skills from './components/layout/body/Skills'
 import Footer from './components/layout/footer/Footer'
+import ProjectClick from './components/layout/body/projects/projectClick';
 
 function App() {
   return (

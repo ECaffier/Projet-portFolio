@@ -39,6 +39,11 @@
 
 /*My code*/
 
+.fullScreen{
+  width: 100vw;
+  height: 100vh;
+}
+
 /*Header*/
 
 .bannerImg{
@@ -56,19 +61,36 @@
   padding-top:30vh;
   color:white;
 }
+
 /*Projects*/
 
 .projectImg{
-  height: 20vh;
-  width: 20vw;
+  height: 25vh;
+  width: 25vw;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
 }
-.projectImgZoom{
-  height: 40vh;
-  width: 40vh;
-}
+
 .projectImg:hover{
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+  transform: scale(1.5);
+  top: -100px;
 }
+
+.textHover {
+  position:relative;
+  visibility:hidden;
+  opacity: 0;
+  transition: visibility 1.5s, opacity 1s linear;
+  }
+  
+  #wrapper:hover .textHover {
+  visibility:visible;
+  opacity: 1;
+  }
+
+
+
 
 /*Skills*/
 
