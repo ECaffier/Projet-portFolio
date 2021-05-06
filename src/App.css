@@ -44,10 +44,64 @@
 .bannerImg{
   background-image: url(./components/layout/header/banner.jpg);
   height: 100vh;
-  width: 100vw;
+  width: 99.16vw;
 }
 
 .placementName{
-  padding-top: 80vh;
+  padding-top: 20vh;
   color:white;
+}
+
+.placementArrow{
+  padding-top:55vh;
+  color:white;
+}
+/*Projects*/
+
+.projectImg{
+  height: 20vh;
+  width: 20vw;
+}
+.projectImg:hover{
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+}
+
+/*Skills*/
+
+/*Doing circle for my skills, */
+.roundCard{
+  height: 100px;
+  width : 100px;
+  background-color: #034078;
+  border-radius : 50%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*Add Border if its done, WIP or Todo */
+.valid{
+  border:0.5rem solid green;
+}
+.unValid{
+  border:0.5rem solid red;
+}
+
+
+@media screen and (min-width:720px){
+
+  .roundCard{
+    height:150px;
+    width: 150px;
+  }
+}
+
+
+@media screen and (min-width:1080px){
+
+  .roundCard{
+    height:200px;
+    width: 200px;
+  }
 }
