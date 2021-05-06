@@ -8,28 +8,28 @@ function Skills(){
             <h2 className="pb-5">Mes compétences</h2>
             <Container>
                 <Row>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard valid">HTML 5</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard valid">CSS 3</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard valid">JavaScript</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard valid">React</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard unValid">PHP</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard unValid">Symfony</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard unValid">MySQL</div>
                     </Col>
-                    <Col xs={6} md={4} lg={3} className="py-5">
+                    <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard valid">Git</div>
                     </Col>
                 </Row>

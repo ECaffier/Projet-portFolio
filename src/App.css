@@ -58,13 +58,20 @@
 }
 /*Projects*/
 
+.projectImg{
+  height: 20vh;
+  width: 20vw;
+}
+.projectImg:hover{
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+}
 
 /*Skills*/
 
 /*Doing circle for my skills, */
 .roundCard{
-  height: 200px;
-  width : 200px;
+  height: 100px;
+  width : 100px;
   background-color: #034078;
   border-radius : 50%;
   list-style-type: none;
@@ -82,3 +89,19 @@
 }
 
 
+@media screen and (min-width:720px){
+
+  .roundCard{
+    height:150px;
+    width: 150px;
+  }
+}
+
+
+@media screen and (min-width:1080px){
+
+  .roundCard{
+    height:200px;
+    width: 200px;
+  }
+}

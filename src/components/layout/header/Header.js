@@ -1,6 +1,7 @@
 import react from 'react';
 import banner from './banner.jpg';
 import Navbar from 'react-bootstrap/Navbar'
+import {bounce} from 'react-animations'
 
 function Header(){
     return (
