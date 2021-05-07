@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/layout/header/Header'
-import Project from './components/layout/body/projects/Project'
-import Skills from './components/layout/body/Skills'
-import Footer from './components/layout/footer/Footer'
+import Header from './components/layout/header/Header';
+import Project from './components/layout/body/projects/Project';
+import Skills from './components/layout/body/skills/Skills';
+import Biographie from './components/layout/body/biographie/Biographie';
+import Contact from './components/layout/body/contact/Contact'
+import Footer from './components/layout/footer/Footer';
 import ProjectClick from './components/layout/body/projects/projectClick';
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Project />
       <Skills />
+      <Biographie />
+      <Contact />
       <Footer />
     </div>
   );

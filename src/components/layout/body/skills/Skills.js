@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 
 function Skills(){
     return(
-        <div id="skills" className="bg-dark text-white text-center">
+        <div id="skills" className="fullScreen bg-dark text-white text-center">
             <h2 className="pb-5">Mes compétences</h2>
             <Container>
                 <Row>
