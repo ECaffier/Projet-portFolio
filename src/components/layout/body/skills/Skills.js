@@ -4,8 +4,8 @@ import Col from 'react-bootstrap/Col'
 
 function Skills(){
     return(
-        <div id="skills" className="fullScreen bg-dark text-white text-center">
-            <h2 className="pb-5">Mes compétences</h2>
+        <div id="skills" className="fullScreen bg-darkBlue text-white text-center">
+            <h2 className="py-5">Mes compétences</h2>
             <Container>
                 <Row>
                     <Col xs={4} lg={3} className="py-5">
@@ -18,10 +18,10 @@ function Skills(){
                         <div className="roundCard valid">JavaScript</div>
                     </Col>
                     <Col xs={4} lg={3} className="py-5">
-                        <div className="roundCard valid">React</div>
+                        <div className="roundCard validating">React</div>
                     </Col>
                     <Col xs={4} lg={3} className="py-5">
-                        <div className="roundCard unValid">PHP</div>
+                        <div className="roundCard validating">PHP</div>
                     </Col>
                     <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard unValid">Symfony</div>

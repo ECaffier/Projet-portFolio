@@ -10,8 +10,8 @@ import ProjectClick from './projectClick';
 // On mobile i need to make col = 12 en give space to each card, also adjust card size on mobile.
 function Project (){
     return(
-        <div id="projects" className="bg-dark text-white text-center fullScreen">
-            <h2 className="pb-5">Mes Projets</h2>
+        <div id="projects" className="bg-darkGrey text-white text-center fullScreen">
+            <h2 className="py-5">Mes Projets</h2>
             <Container>
                 <Row>
                     <Col xs={6} lg={6} className="py-5">
