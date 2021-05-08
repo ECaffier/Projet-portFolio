@@ -3,10 +3,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import PhotoCV from './PhotoCV.png'
 
-
 function Contact(){
     return(
-        <div id="contact" className="p-5 bg-darkBlue text-white text-center ">
+        <div id="contact" className="p-5 bg-darkBlue textWhite text-center ">
             <h2 className="p-6">Me contacter</h2>
             <Container>
                 <Row>
@@ -25,9 +24,7 @@ function Contact(){
                             <li className="p-2">
                                 <a href="https://www.linkedin.com/in/edouard-caffier-a7411b18a/" target="_blank">Linkedin</a>
                             </li>
-
                         </ul>
-
                     </Col>
                     <Col>
                         <h3 className="pb-5">CV</h3>

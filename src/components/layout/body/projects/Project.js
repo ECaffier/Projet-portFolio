@@ -10,17 +10,17 @@ import ProjectClick from './projectClick';
 // On mobile i need to make col = 12 en give space to each card, also adjust card size on mobile.
 function Project (){
     return(
-        <div id="projects" className="bg-darkGrey text-white text-center fullScreen">
+        <div id="projects" className="bg-darkGrey textWhite text-center ">
             <h2 className="py-5">Mes Projets</h2>
             <Container>
                 <Row>
-                    <Col xs={6} lg={6} className="py-5">
+                    <Col xs={12} lg={6} className="py-5">
                     <div id="wrapper">
                       <a href="https://ecaffier.github.io/jeuMemory/" target='_blank'> <img src={MemoryGame} className="projectImg hover" /></a>
                         <p className="textHover">Un jeu du memory, réalisé en formation à l'AFPA.</p>
                     </div>
                     </Col> 
-                    <Col xs={6} lg={6} className="py-5">
+                    <Col xs={12} lg={6} className="py-5">
                     <div id="wrapper">
                         <a href=" https://ecaffier.github.io/jeupendu/ " target='_blank'>
                             <img src={JeuPendu} className="projectImg hover" /> 
@@ -28,7 +28,7 @@ function Project (){
                         <p className="textHover">Un jeu du pendu, réalisé en formation à l'AFPA</p>
                     </div>
                     </Col>   
-                    <Col xs={6} lg={6} className="py-5">
+                    <Col xs={12} lg={6} className="py-5">
                     <div id="wrapper">
                         <a href="https://ecaffier.github.io/Banque_site/" target='_blank'>
                             <img src={ProjectBanque} className="projectImg hover" />
@@ -36,7 +36,7 @@ function Project (){
                         <p className="textHover">Un site de banque, réalisé en formation à l'AFPA</p>
                     </div>
                     </Col>   
-                    <Col xs={6} lg={6} className="py-5">
+                    <Col xs={12} lg={6} className="py-5">
                     <div id="wrapper">
                         <a href="https://trobillard.github.io/Norimmo/index.html" target='_blank'>
                             <img src={NorImmo} className="projectImg hover" />
