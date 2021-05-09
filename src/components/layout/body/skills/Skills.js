@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+
+// This function return circle, split between 3 kinds, valid, unvalid and validating
 function Skills(){
     return(
         <div id="skills" className=" bg-darkBlue textWhite text-center">

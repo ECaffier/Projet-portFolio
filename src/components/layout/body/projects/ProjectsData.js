@@ -3,6 +3,8 @@ import JeuPendu from './JeuPendu.png';
 import ProjectBanque from './ProjectBanque.png'
 import NorImmo from './NorImmo.png'
 
+
+// Const that works like json array, make me able to create or replace cards in my projects easy
 const projectsData =[
     {
         Title : "Memory game",
@@ -24,7 +26,7 @@ const projectsData =[
     },
     {
         Title : "Nor'Immo",
-        Link : "https://trobillard.github.io/Norimmo/index.html/",
+        Link : "https://trobillard.github.io/Norimmo/",
         Image : NorImmo,
         Detail : "Un site immobilier, premier projet de groupe en formation à l'AFPA."
     }

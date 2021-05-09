@@ -1,9 +1,10 @@
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from "react";
 import ProjectsData from "./ProjectsData";
 
+
+// This const create card for each element in my json array
 export const Project = () => {
     return(
         <div id="projects" className="bg-darkGrey textWhite text-center">

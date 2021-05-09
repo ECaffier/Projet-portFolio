@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import PhotoCV from './PhotoCV.png'
 
+
+// Function contact, split into 2 col to have CV at the right and the coordonnées at the left.
 function Contact(){
     return(
         <div id="contact" className="p-5 bg-darkBlue textWhite text-center ">

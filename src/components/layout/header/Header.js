@@ -4,9 +4,10 @@ import Navbar from 'react-bootstrap/Navbar'
 import {bounce} from 'react-animations'
 import styled, {keyframes} from 'styled-components';
 
-
+// Const to make bounce my arrow
 const Bounce = styled.div`animation: 2s ${keyframes` ${bounce} `} infinite`;
 
+// Function with the bootstrap navbar first, then an image as background and some text, finaly an arrow to show u have to scroll down
 function Header(){
     return (
         <header >    

@@ -62,15 +62,9 @@ a:hover{
 }
 
 .bg-darkBlue{
-  /* background-color : #011B28; */
-  /* background-image: url("./Img/blueback1.jpg");
-  background-position: fixed; */
-  /* background-color: #495057; */
   background-color: #213245;
 }
 .bg-darkGrey{
-  /* background-image: url("./Img/greyback2.jpg"); */
-  /* background-color: #213245; */
   background-color: #495057;
 }
 h1{
@@ -141,10 +135,12 @@ p{
   font-size: 1.3em;
 
 }
-/*Add Border if its done, WIP or Todo */
+/*Add bottom border when needed*/
 .skillsBorder{
   border-bottom :0.1rem solid #E6EAEF;
 }
+/*Add Border if its done, WIP or Todo */
+
 .valid{
   border:0.1rem solid #55a630;
 }

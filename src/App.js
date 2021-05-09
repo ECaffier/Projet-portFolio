@@ -7,6 +7,8 @@ import Biographie from './components/layout/body/biographie/Biographie';
 import Contact from './components/layout/body/contact/Contact'
 import Footer from './components/layout/footer/Footer';
 
+
+//This is the main page, since i'm doing one page with scroll only, all JS function are called like that.
 function App() {
   return (
     <div>
