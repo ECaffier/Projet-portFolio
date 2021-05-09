@@ -10,25 +10,29 @@ const projectsData =[
         Title : "Memory game",
         Link : "https://ecaffier.github.io/jeuMemory/",
         Image : MemoryGame,
-        Detail : "Un jeu du memory, réalisé en formation à l'AFPA."
+        Detail : "Un jeu du memory, réalisé en formation à l'AFPA.",
+        Github : "https://github.com/ECaffier/jeuMemory"
     },
     {
         Title : "Jeu du pendu",
         Link : " https://ecaffier.github.io/jeupendu/",
         Image : JeuPendu,
-        Detail : "Un jeu du pendu, réalisé en formation à l'AFPA."
+        Detail : "Un jeu du pendu, réalisé en formation à l'AFPA.",
+        Github : "https://github.com/ECaffier/jeupendu"
     },
     {
         Title : "Site de banque",
         Link : "https://ecaffier.github.io/Banque_site/",
         Image : ProjectBanque,
-        Detail : "Un site de banque, réalisé en formation à l'AFPA."
+        Detail : "Un site de banque, réalisé en formation à l'AFPA.",
+        Github :"https://github.com/ECaffier/Banque_site"
     },
     {
         Title : "Nor'Immo",
         Link : "https://trobillard.github.io/Norimmo/",
         Image : NorImmo,
-        Detail : "Un site immobilier, premier projet de groupe en formation à l'AFPA."
+        Detail : "Un site immobilier, premier projet de groupe en formation à l'AFPA.",
+        Github : "https://github.com/trobillard/Norimmo/tree/CeD"
     }
 
 ]

@@ -81,6 +81,9 @@ h3{
 p{
   font-family: 'Roboto', sans-serif;
 }
+.btn:hover{
+  color:#39A2AE;
+}
 
 /*Header*/
 
