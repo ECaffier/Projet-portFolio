@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Project-portFolio/static/css/main.f429bcfd.chunk.css",
+    "main.js": "/Project-portFolio/static/js/main.6facb68e.chunk.js",
+    "main.js.map": "/Project-portFolio/static/js/main.6facb68e.chunk.js.map",
+    "runtime-main.js": "/Project-portFolio/static/js/runtime-main.f2d4ae7d.js",
+    "runtime-main.js.map": "/Project-portFolio/static/js/runtime-main.f2d4ae7d.js.map",
+    "static/js/2.4e87f1f4.chunk.js": "/Project-portFolio/static/js/2.4e87f1f4.chunk.js",
+    "static/js/2.4e87f1f4.chunk.js.map": "/Project-portFolio/static/js/2.4e87f1f4.chunk.js.map",
+    "static/js/3.d1f3170f.chunk.js": "/Project-portFolio/static/js/3.d1f3170f.chunk.js",
+    "static/js/3.d1f3170f.chunk.js.map": "/Project-portFolio/static/js/3.d1f3170f.chunk.js.map",
+    "index.html": "/Project-portFolio/index.html",
+    "static/css/main.f429bcfd.chunk.css.map": "/Project-portFolio/static/css/main.f429bcfd.chunk.css.map",
+    "static/js/2.4e87f1f4.chunk.js.LICENSE.txt": "/Project-portFolio/static/js/2.4e87f1f4.chunk.js.LICENSE.txt",
+    "static/media/MemoryGame.449a28d6.png": "/Project-portFolio/static/media/MemoryGame.449a28d6.png",
+    "static/media/NorImmo.8f722210.png": "/Project-portFolio/static/media/NorImmo.8f722210.png",
+    "static/media/PhotoCV.4c996f8e.png": "/Project-portFolio/static/media/PhotoCV.4c996f8e.png",
+    "static/media/ProjectBanque.536a53cc.png": "/Project-portFolio/static/media/ProjectBanque.536a53cc.png",
+    "static/media/banner.e30b675f.jpg": "/Project-portFolio/static/media/banner.e30b675f.jpg",
+    "static/media/App.css": "/Project-portFolio/static/media/banner5.7cc5502b.jpg",
+    "static/media/logo.6ce24c58.svg": "/Project-portFolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2d4ae7d.js",
+    "static/js/2.4e87f1f4.chunk.js",
+    "static/css/main.f429bcfd.chunk.css",
+    "static/js/main.6facb68e.chunk.js"
+  ]
+}
