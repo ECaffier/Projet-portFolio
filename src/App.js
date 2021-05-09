@@ -6,7 +6,6 @@ import Skills from './components/layout/body/skills/Skills';
 import Biographie from './components/layout/body/biographie/Biographie';
 import Contact from './components/layout/body/contact/Contact'
 import Footer from './components/layout/footer/Footer';
-import ProjectClick from './components/layout/body/projects/projectClick';
 
 function App() {
   return (

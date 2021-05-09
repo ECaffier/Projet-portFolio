@@ -63,13 +63,23 @@ a:hover{
 }
 
 .bg-darkBlue{
-  background-color : #011B28;
+  /* background-color : #011B28; */
+  /* background-image: url("./Img/blueback1.jpg");
+  background-position: fixed; */
+  /* background-color: #495057; */
+  background-color: #213245;
 }
 .bg-darkGrey{
-  background-color:#162027;
+  /* background-image: url("./Img/greyback2.jpg"); */
+  /* background-color: #213245; */
+  background-color: #495057;
+}
+h1{
+  font-family: 'Federo', sans-serif;
 }
 h2{
   text-decoration:underline;
+  font-family: 'Expletus Sans', cursive;
 }
 
 /*Header*/
@@ -117,7 +127,7 @@ h2{
 .roundCard{
   height: 100px;
   width : 100px;
-  background-color: #162027;
+  background-color: #393d41;
   border-radius : 50%;
   list-style-type: none;
   display: flex;
