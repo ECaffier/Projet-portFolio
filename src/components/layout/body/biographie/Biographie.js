@@ -6,7 +6,9 @@ function Biographie(){
         <div id="biographie" className="p-5 bg-darkGrey textWhite text-center">
             <Container>
                 <h2 className="p-5">Biographie</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Je suis Edouard Caffier, j’ai 26 ans, et je suis actuellement en formation à l’AFPA pour devenir développeur web. Je suis passionné d’informatique et de jeux vidéos. J’aime aussi les mangas, les animés, la cuisine. 
+                    J’ai pris du temps à me chercher professionnellement, jusqu’à ce que je découvre le développement web. Cette discipline allie finalement des choses qui me tiennent à cœur : la créativité, et la soif d’apprendre toujours plus.
+                    J’aime chercher, inventer, créer.</p>
             </Container>
         </div>
     );

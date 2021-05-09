@@ -38,3 +38,4 @@ Spécifications techniques:
 -Utilisation du framework Bootstrap en version 4 ou 5
 
 -Le site est hébergé sur un serveur ou via une gh-page-Un kanban, des wireframes(mobile, tablette et PC)et une arborescence fonctionnelle accompagnent votre travail sur GitHub
+
