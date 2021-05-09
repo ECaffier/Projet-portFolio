@@ -8,7 +8,7 @@ function Skills(){
             <h2 className="py-5">Mes compétences</h2>
             <Container>
                 <Row className="skillsBorder">
-                    <h2 className="py-3">Maitrisé</h2>
+                    <h3 className="py-3">Maitrisé</h3>
                     <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard valid">HTML 5</div>
                     </Col>
@@ -23,7 +23,7 @@ function Skills(){
                     </Col>
                 </Row>
                 <Row className="skillsBorder">
-                    <h2 className="py-3">En cours d'apprentissage</h2>
+                    <h3 className="py-3">En cours d'apprentissage</h3>
                     <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard validating">React</div>
                     </Col>
@@ -32,7 +32,7 @@ function Skills(){
                     </Col>
                 </Row>
                 <Row>
-                    <h2 className="py-3">Non maitrisé</h2>
+                    <h3 className="py-3">Non maitrisé</h3>
                     <Col xs={4} lg={3} className="py-5">
                         <div className="roundCard unValid">Symfony</div>
                     </Col>

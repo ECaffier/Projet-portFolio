@@ -9,7 +9,7 @@ const Bounce = styled.div`animation: 2s ${keyframes` ${bounce} `} infinite`;
 
 function Header(){
     return (
-        <header>    
+        <header >    
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#top">Cafed</a>
@@ -37,10 +37,12 @@ function Header(){
             <section id="top"className="bannerImg">
                 <div className="placementName container">
                     <h1 className="text-center">Caffier Edouard</h1>
-                    <p className="text-center">Développeur Web Junior</p>
+                    <h2 className="text-center">Développeur Web Junior</h2>
                 </div>
                 <div className="placementArrow">
-                   <Bounce> <a className="fas fa-chevron-down fa-3x d-flex justify-content-center" href="#projects"></a> </Bounce>
+                    <Bounce>
+                         <a className="fas fa-chevron-down fa-3x d-flex justify-content-center" href="#projects"></a>
+                    </Bounce>
                 </div>
             </section>
         </header>

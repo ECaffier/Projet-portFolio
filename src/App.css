@@ -44,7 +44,6 @@
   color: #E6EAEF;
 }
 .fullScreen{
-  width: 99.16vw;
   height: 100vh;
 }
 .coordList{
@@ -76,21 +75,23 @@ a:hover{
 }
 h1{
   font-family: 'Federo', sans-serif;
+  font-size: 6em;
 }
 h2{
-  text-decoration:underline;
   font-family: 'Expletus Sans', cursive;
+
+}
+h3{
+  font-family: 'Mate SC', serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
 }
 
 /*Header*/
-.navbar-nav .current{
-  background-color: brown;
-}
 
 .bannerImg{
   background-image: url(./components/layout/header/banner5.jpg);
-  /* opacity: 0.8; */
-
 }
 
 .placementName{
@@ -99,26 +100,29 @@ h2{
 }
 
 .placementArrow{
-  padding-top:30vh;
-  color:#E6EAEF;
+  padding-top:10vh;
+
 }
 
 /*Projects*/
 
 .projectImg{
-  height: 50vh;
-  width: 60vw;
+  height: 33vh;
+  width: 66vw;
   position: relative;
   top: 0;
-  transition: top ease 1s;
+  transition: top ease 1.2s;
   border:0.1rem solid #E6EAEF;
   z-index: 1;
 }
 
 .projectImg:hover{
-  transform: scale(1.5);
-  top: -100px;
+  transform: scale(1.4);
+  top: -150px;
 }
+.projectSize{
+  max-width:100%
+  }
 
 
 /*Skills*/
@@ -133,7 +137,8 @@ h2{
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#D8F1FD;
+  color:#E6EAEF;
+  font-size: 1.3em;
 
 }
 /*Add Border if its done, WIP or Todo */
@@ -141,22 +146,22 @@ h2{
   border-bottom :0.1rem solid #E6EAEF;
 }
 .valid{
-  border:0.3rem solid #55a630;
+  border:0.1rem solid #55a630;
 }
 .valid:hover{
-  border:0.5rem solid #55a630;
+  border:0.3rem solid #55a630;
 }
 .unValid{
-  border:0.3rem solid #bf0603;
+  border:0.1rem solid #bf0603;
 }
 .unValid:hover{
-  border:0.5rem solid #bf0603;
+  border:0.3rem solid #bf0603;
 }
 .validating{
-  border:0.3rem solid #db7c26;
+  border:0.1rem solid #db7c26;
 }
 .validating:hover{
-  border:0.5rem solid #db7c26;
+  border:0.3rem solid #db7c26;
 }
 
 /*Contact*/
@@ -166,7 +171,7 @@ h2{
   height: 50vh;
 }
 
-/*Footr*/
+/*Footer*/
 .footerAdjust{
   padding:4vh;
   margin:0;
@@ -175,17 +180,31 @@ h2{
 
 @media screen and (min-width:720px){
 
+/*Projects*/
+
+.projectImg{
+  height: 33vh;
+  width: 66vw;
+}
+
+/*Skills*/
   .roundCard{
     height:150px;
     width: 150px;
   }
 }
 
+/*Contact*/
 
-@media screen and (min-width:1080px){
+.photoCV{
+  width:50vw;
+}
+
+
+@media screen and (min-width:1024px){
 /*Header*/
 .placementArrow{
-  padding-top:65vh;
+  padding-top:58vh;
 }
 
 /*Projects*/
@@ -198,7 +217,7 @@ h2{
   position:relative;
   visibility:hidden;
   opacity: 0;
-  transition: visibility 2.5s, opacity 2s linear;
+  transition: visibility 2.5s, opacity 1s linear;
   }
   
   #wrapper:hover .textHover {
@@ -216,8 +235,8 @@ h2{
 /*Contact*/
 
 .photoCV{
-  width: 15vw;
-  height: 35vh;
+  width: 20vw;
+  height: 45vh;
 }
 
 

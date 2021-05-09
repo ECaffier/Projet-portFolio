@@ -15,7 +15,7 @@ function Contact(){
                             <li className="p-2">
                                 <a href="mailto:Caffier.ed@gmail.com">Caffier.ed@gmail.com</a></li>
                             <li className="p-2">06 89 26 35 45</li>
-                            <li className="p-2">
+                            <li className="py-2">
                                 <a href="https://github.com/ECaffier" target="_blank">Github</a>
                             </li>
                             <li className="p-2">
@@ -29,9 +29,11 @@ function Contact(){
                     <Col>
                         <h3 className="pb-5">CV</h3>
                         <Col>
-                            <img src={PhotoCV} className="photoCV mb-5" />
+                            <a href="https://imgur.com/iQqYcM7" target="_blank">
+                                <img src={PhotoCV} className="photoCV mb-5" />
+                            </a> 
                         </Col>
-                    <a href={PhotoCV} download>Cliquez pour télécharger</a>
+                    <a href={PhotoCV} download>Télécharger</a>
                     </Col>
                 </Row>
             </Container>
