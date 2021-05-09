@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E6EAEF;
 }
 
 .App-link {
@@ -39,32 +39,85 @@
 
 /*My code*/
 
+/*Generique code*/
+.textWhite{
+  color: #E6EAEF;
+}
+.fullScreen{
+  height: 100vh;
+}
+.coordList{
+  list-style-type: none;
+  font-size: 1.5em;
+}
+a{
+  color:#E6EAEF;
+  text-decoration: none;
+}
+a:hover{
+  color:#39A2AE;
+}
+.p-6{
+  padding-bottom:15vh;
+}
+
+.bg-darkBlue{
+  background-color: #213245;
+}
+.bg-darkGrey{
+  background-color: #495057;
+}
+h1{
+  font-family: 'Federo', sans-serif;
+  font-size: 6em;
+}
+h2{
+  font-family: 'Expletus Sans', cursive;
+
+}
+h3{
+  font-family: 'Mate SC', serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
 /*Header*/
 
 .bannerImg{
-  background-image: url(./components/layout/header/banner.jpg);
-  height: 100vh;
-  width: 99.16vw;
+  background-image: url(./components/layout/header/banner5.jpg);
 }
 
 .placementName{
   padding-top: 20vh;
-  color:white;
+  color:#E6EAEF;
 }
 
 .placementArrow{
-  padding-top:55vh;
-  color:white;
+  padding-top:10vh;
+
 }
+
 /*Projects*/
 
 .projectImg{
-  height: 20vh;
-  width: 20vw;
+  height: 33vh;
+  width: 66vw;
+  position: relative;
+  top: 0;
+  transition: top ease 1.2s;
+  border:0.1rem solid #E6EAEF;
+  z-index: 1;
 }
+
 .projectImg:hover{
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+  transform: scale(1.4);
+  top: -150px;
 }
+.projectSize{
+  max-width:100%
+  }
+
 
 /*Skills*/
 
@@ -72,36 +125,115 @@
 .roundCard{
   height: 100px;
   width : 100px;
-  background-color: #034078;
+  background-color: #393d41;
   border-radius : 50%;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  color:#E6EAEF;
+  font-size: 1.3em;
 
 }
+/*Add bottom border when needed*/
+.skillsBorder{
+  border-bottom :0.1rem solid #E6EAEF;
+}
 /*Add Border if its done, WIP or Todo */
+
 .valid{
-  border:0.5rem solid green;
+  border:0.1rem solid #55a630;
+}
+.valid:hover{
+  border:0.3rem solid #55a630;
 }
 .unValid{
-  border:0.5rem solid red;
+  border:0.1rem solid #bf0603;
+}
+.unValid:hover{
+  border:0.3rem solid #bf0603;
+}
+.validating{
+  border:0.1rem solid #db7c26;
+}
+.validating:hover{
+  border:0.3rem solid #db7c26;
+}
+
+/*Contact*/
+
+.photoCV{
+  width: 60vw;
+  height: 50vh;
+}
+
+/*Footer*/
+.footerAdjust{
+  padding:4vh;
+  margin:0;
 }
 
 
 @media screen and (min-width:720px){
 
+/*Projects*/
+
+.projectImg{
+  height: 33vh;
+  width: 66vw;
+}
+
+/*Skills*/
   .roundCard{
     height:150px;
     width: 150px;
   }
 }
 
+/*Contact*/
 
-@media screen and (min-width:1080px){
+.photoCV{
+  width:50vw;
+}
 
+
+@media screen and (min-width:1024px){
+/*Header*/
+.placementArrow{
+  padding-top:58vh;
+}
+
+/*Projects*/
+
+.projectImg{
+  height: 25vh;
+  width: 22vw;
+}
+.textHover {
+  position:relative;
+  visibility:hidden;
+  opacity: 0;
+  transition: visibility 2.5s, opacity 1s linear;
+  }
+  
+  #wrapper:hover .textHover {
+  visibility:visible;
+  opacity: 1;
+  }
+
+
+ /*skills*/ 
   .roundCard{
     height:200px;
     width: 200px;
   }
+
+/*Contact*/
+
+.photoCV{
+  width: 20vw;
+  height: 45vh;
+}
+
+
 }
