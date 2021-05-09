@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Projet à rendre :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Votre portfolio
 
-In the project directory, you can run:
+Voilà maintenant quelques semaines que vous réalisez des sites internet et vous devez avoir envie de les partager avec le mondeentier! Le grand jour est arrivé, vous allez enfin coder votre portfolio personnel.
 
-### `npm start`
+Votre portfolio est un outil de travail au même titre qu'un CV, un compte Linkedin ou une lettre de motivation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Il est même bien plus important car c'est lui qui permet au recruteur de juger de vos compétences techniques.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Il ne faut donc pas le négliger.Concrètement un portfolio est un site internet personnel où vous présentez votre travail et votre profil au recruteur de manière détaillée.
 
-### `npm test`
+Il s'agit de quelque chose unique à chaque développeur, vous devrez donc trouver différents portfolio sur internet afin de les comparer et trouver une manière de faire qui vous convient.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cependant quelques caractéristiques semblent essentielles.
 
-### `npm run build`
+Spécifications fonctionnelles:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Une page où vous présentez vos travaux de manière lisible et synthétique (sous forme d’articles ou de cartes par exemple mais d’autres présentations fonctionnent également).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sur chaque projet, un lien renvoie vers un repository GitHub et/ou une version en ligne du projet.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Une page où vous parlez un peu de vous (c’est la biographie)-Une page pour vous contacter (via un formulaire en utilisant le service sendgrid ou simplement un mail to)
 
-### `npm run eject`
+-Un menu simple et clair (les noms dans le menu doivent se comprendre tout de suite)-Une présentation organisée et concise des informations (il faut trouver un équilibre entre en dire trop ou trop peu)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-Une expérience utilisateur fluide et agréable (le recruteur ne doit pas passer 5 minutes à se demander où cliquersur votre portfolio)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Des liens vers vos profils sur les réseaux sociaux (notamment twitter, github et linkedin)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-Un design moderne et responsive sur tous les types d'écrans
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Spécifications techniques:
 
-## Learn More
+-Utilisation de la dernière version de REACT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Utilisation du framework Bootstrap en version 4 ou 5
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Le site est hébergé sur un serveur ou via une gh-page-Un kanban, des wireframes(mobile, tablette et PC)et une arborescence fonctionnelle accompagnent votre travail sur GitHub
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
