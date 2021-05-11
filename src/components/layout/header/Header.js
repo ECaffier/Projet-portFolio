@@ -35,7 +35,7 @@ function Header(){
                     </div>
                 </div>
             </nav>
-            <section id="top"className="bannerImg">
+            <section id="top"className="bannerImg fullScreen">
                 <div className="placementName container">
                     <h1 className="text-center">Caffier Edouard</h1>
                     <h2 className="text-center">Développeur Web Junior</h2>
