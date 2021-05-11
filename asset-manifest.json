@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Projet-portFolio/static/css/main.eb2f9662.chunk.css",
-    "main.js": "/Projet-portFolio/static/js/main.0fb351ff.chunk.js",
-    "main.js.map": "/Projet-portFolio/static/js/main.0fb351ff.chunk.js.map",
+    "main.css": "/Projet-portFolio/static/css/main.11489af9.chunk.css",
+    "main.js": "/Projet-portFolio/static/js/main.708b7906.chunk.js",
+    "main.js.map": "/Projet-portFolio/static/js/main.708b7906.chunk.js.map",
     "runtime-main.js": "/Projet-portFolio/static/js/runtime-main.3ca1e2a2.js",
     "runtime-main.js.map": "/Projet-portFolio/static/js/runtime-main.3ca1e2a2.js.map",
     "static/js/2.885f9542.chunk.js": "/Projet-portFolio/static/js/2.885f9542.chunk.js",
@@ -10,12 +10,13 @@
     "static/js/3.d1f3170f.chunk.js": "/Projet-portFolio/static/js/3.d1f3170f.chunk.js",
     "static/js/3.d1f3170f.chunk.js.map": "/Projet-portFolio/static/js/3.d1f3170f.chunk.js.map",
     "index.html": "/Projet-portFolio/index.html",
-    "static/css/main.eb2f9662.chunk.css.map": "/Projet-portFolio/static/css/main.eb2f9662.chunk.css.map",
+    "static/css/main.11489af9.chunk.css.map": "/Projet-portFolio/static/css/main.11489af9.chunk.css.map",
     "static/js/2.885f9542.chunk.js.LICENSE.txt": "/Projet-portFolio/static/js/2.885f9542.chunk.js.LICENSE.txt",
-    "static/media/MemoryGame.449a28d6.png": "/Projet-portFolio/static/media/MemoryGame.449a28d6.png",
-    "static/media/NorImmo.8f722210.png": "/Projet-portFolio/static/media/NorImmo.8f722210.png",
+    "static/media/JeuPendu.8c02f38b.png": "/Projet-portFolio/static/media/JeuPendu.8c02f38b.png",
+    "static/media/MemoryGame.a4536bfb.png": "/Projet-portFolio/static/media/MemoryGame.a4536bfb.png",
+    "static/media/NorImmo.1eaf979b.png": "/Projet-portFolio/static/media/NorImmo.1eaf979b.png",
     "static/media/PhotoCV.4c996f8e.png": "/Projet-portFolio/static/media/PhotoCV.4c996f8e.png",
-    "static/media/ProjectBanque.536a53cc.png": "/Projet-portFolio/static/media/ProjectBanque.536a53cc.png",
+    "static/media/ProjectBanque.66c8fab9.png": "/Projet-portFolio/static/media/ProjectBanque.66c8fab9.png",
     "static/media/banner.e30b675f.jpg": "/Projet-portFolio/static/media/banner.e30b675f.jpg",
     "static/media/App.css": "/Projet-portFolio/static/media/banner5.7cc5502b.jpg",
     "static/media/logo.6ce24c58.svg": "/Projet-portFolio/static/media/logo.6ce24c58.svg"
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ca1e2a2.js",
     "static/js/2.885f9542.chunk.js",
-    "static/css/main.eb2f9662.chunk.css",
-    "static/js/main.0fb351ff.chunk.js"
+    "static/css/main.11489af9.chunk.css",
+    "static/js/main.708b7906.chunk.js"
   ]
 }
