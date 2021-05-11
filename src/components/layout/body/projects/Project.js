@@ -19,8 +19,8 @@ export const Project = () => {
                             <img src={data.Image} className="projectImg hover" />
                         </a>
                         <p className="textHover">{data.Detail}</p>
-                        <a className="btn bg-darkBlue textWhite px-5 mx-4" href={data.Github} role="button" target="_blank">Github</a>
-                        <a className="btn bg-darkBlue textWhite px-5 mx-4" href={data.Link} role="button" target="_blank">GH page</a>
+                        <a className="btn bg-darkBlue textWhite px-5 mx-2" href={data.Github} role="button" target="_blank">Github</a>
+                        <a className="btn bg-darkBlue textWhite px-5 mx-2" href={data.Link} role="button" target="_blank">GH page</a>
                     </div>
                     </Col> 
                 );
